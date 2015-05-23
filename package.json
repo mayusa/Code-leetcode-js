@@ -1,0 +1,24 @@
+{
+  "name": "leetcode-js",
+  "version": "1.0.0",
+  "description": "LeetCode solutions in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayusa/leetcode-js.git"
+  },
+  "author": "ashucn <ashucn@gmail.com> (https://github.com/mayusa)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayusa/leetcode-js/issues"
+  },
+  "homepage": "https://github.com/mayusa/leetcode-js",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3",
+    "supertest": "^1.0.1"
+  }
+}
