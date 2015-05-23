@@ -23,5 +23,5 @@ var twoSum = function(a, n) {
   });
   return ret;
 }
-
+ 
 module.exports = twoSum;
