@@ -6,22 +6,27 @@ You may assume that each input would have exactly one solution. Input: numbers={
 Output: index1=1, index2=2
 */
 
-var twoSum = function(a, n) {
-  a.sort(function(a, b) {
-    return a - b;
-  });
-  var dict = a.reduce(function(acc, e, i) {
-    acc[e] = i;
-    return acc;
-  }, {});
-  var ret = [];
-  a.forEach(function(e, i) {
-    var other = n-e;
-    if (dict[other]) {
-      ret = [i, dict[other]];
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+  var hash = {};
+  for(var i=0; i<nums.length; i++) {
+    hash[nums[i]] = i;
+  }
+
+  for(var j=0; j<nums.length; j++) {
+    var needValue = target-nums[j];
+    if(hash.hasOwnProperty(needValue)) {
+      var index1 = j+1;
+      var index2 = hash[needValue]+1;
+      if(index1!==index2) {
+        return [index1, index2];
+      }
     }
-  });
-  return ret;
-}
- 
+  }
+};
+
 module.exports = twoSum;
