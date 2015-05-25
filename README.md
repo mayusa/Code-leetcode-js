@@ -10,6 +10,7 @@ npm install --save-dev supertest
 ###Step 2. write solution code  
 ````
 var twoSum = function(nums, target) {
+	...
 };
 
 module.exports = twoSum;
