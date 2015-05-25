@@ -12,7 +12,8 @@ npm install --save-dev supertest
 ####Title Acceptance Difficulty
 
 ---------------------
-Easy 
+Easy   
+  
 006	ZigZag Conversion  
 007	Reverse Integer	26.0%	Easy  
 008	String to Integer (atoi)	13.2%	Easy  
@@ -65,6 +66,7 @@ Easy
 217	Contains Duplicate	
 
 --------------------------------  
+Medium  
 
 001	Two Sum	 
 002	Add Two Numbers	 
