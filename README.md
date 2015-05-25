@@ -8,30 +8,57 @@ npm install --save-dev should
 npm install --save-dev supertest   
 
 ````
+###Step 2. write solution code  
+````
+var twoSum = function(nums, target) {
+};
+
+module.exports = twoSum;
+````
+  
+###Step 3. write test function  
+````
+var should = require('should');
+var twoSum = require('../code/medium/01-twoSum');
+describe("Two Sum: ", function() {
+  it("Pass Two Sum", function() {
+    JSON.stringify(twoSum([2,7,11,15], 9)).should.equal(JSON.stringify([1,2]));
+    JSON.stringify(twoSum([-3,1,3,15], 0)).should.equal(JSON.stringify([1,3]));
+  });
+});
+
+````
+
+
+###Step 4. test  
+
+> mocha   
+
+
 
 ####Title Acceptance Difficulty
 
 ---------------------
 Easy   
-  
+
 006	ZigZag Conversion  
-007	Reverse Integer	26.0%	Easy  
-008	String to Integer (atoi)	13.2%	Easy  
-009	Palindrome Number	29.7%	Easy  
-013	Roman to Integer	35.2%	Easy  
-014	Longest Common Prefix	26.0%	Easy  
-019	Remove Nth Node From End of List	27.4%	Easy  
-020	Valid Parentheses	26.6%	Easy  
-021	Merge Two Sorted Lists	32.9%	Easy  
-026	Remove Duplicates from Sorted Array	31.5%	Easy  
-027	Remove Element	32.4%	Easy  
-028	Implement strStr()	22.1%	Easy  
-036	Valid Sudoku	27.3%	Easy  
-038	Count and Say	25.2%	Easy  
-058	Length of Last Word	28.4%	Easy  
-066	Plus One	30.6%	Easy  
-067	Add Binary	24.8%	Easy  
-070	Climbing Stairs	34.3%	Easy  
+007	Reverse Integer  
+008	String to Integer (atoi)	 
+009	Palindrome Number	 
+013	Roman to Integer  
+014	Longest Common Prefix	 
+019	Remove Nth Node From End of List   
+020	Valid Parentheses	 
+021	Merge Two Sorted Lists	   
+026	Remove Duplicates from Sorted Array	  
+027	Remove Element	 
+028	Implement strStr()	 
+036	Valid Sudoku	 
+038	Count and Say	  
+058	Length of Last Word	   
+066	Plus One	 
+067	Add Binary	  
+070	Climbing Stairs	 
 083	Remove Duplicates from Sorted List	 
 088	Merge Sorted Array	
 100	Same Tree	 
