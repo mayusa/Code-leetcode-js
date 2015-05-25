@@ -1,5 +1,5 @@
 var should = require('should');
-var twoSum = require('../code/1-twoSum');
+var twoSum = require('../code/easy/01-twoSum');
 
 describe("Two Sum: ", function() {
   it("Pass Two Sum", function() {
