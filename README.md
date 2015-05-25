@@ -1,5 +1,8 @@
-##Solutions for leetcode in JavaScript and how to test a solution code:   
-###Step 1. install 3 dependences  
+##Solutions for leetcode in JavaScript
+
+###Using Node + Mocha to test a solution code:    
+
+####Step 1. install 3 dependences  
 ````
 npm install -g mocha  
 npm install --save-dev mocha    
@@ -7,7 +10,7 @@ npm install --save-dev should
 npm install --save-dev supertest   
 
 ````
-###Step 2. write solution code  
+####Step 2. write solution code  
 ````
 var twoSum = function(nums, target) {
 	...
@@ -16,7 +19,7 @@ var twoSum = function(nums, target) {
 module.exports = twoSum;
 ````
   
-###Step 3. write test function  
+####Step 3. write test function  
 ````
 var should = require('should');
 var twoSum = require('../code/medium/01-twoSum');
@@ -30,15 +33,15 @@ describe("Two Sum: ", function() {
 ````
 
 
-###Step 4. test  
+####Step 4. run test command   
 
 > mocha   
 
 ------  
 
-##Leet code  
+##Leet code questions 
 
-####Title Acceptance Difficulty
+#### # Title
 
 ---------------------
 Easy   
