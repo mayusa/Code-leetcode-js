@@ -9,32 +9,30 @@ npm install --save-dev supertest
 
 ````
 
-
-
 ####Title Acceptance Difficulty
 
 ---------------------
 
-6	ZigZag Conversion	22.1%	Easy
-7	Reverse Integer	26.0%	Easy
-8	String to Integer (atoi)	13.2%	Easy
-9	Palindrome Number	29.7%	Easy
-13	Roman to Integer	35.2%	Easy
-14	Longest Common Prefix	26.0%	Easy
-19	Remove Nth Node From End of List	27.4%	Easy
-20	Valid Parentheses	26.6%	Easy
-21	Merge Two Sorted Lists	32.9%	Easy
-26	Remove Duplicates from Sorted Array	31.5%	Easy
-27	Remove Element	32.4%	Easy
-28	Implement strStr()	22.1%	Easy
-36	Valid Sudoku	27.3%	Easy
-38	Count and Say	25.2%	Easy
-58	Length of Last Word	28.4%	Easy
-66	Plus One	30.6%	Easy
-67	Add Binary	24.8%	Easy
-70	Climbing Stairs	34.3%	Easy
-83	Remove Duplicates from Sorted List	34.5%	Easy
-88	Merge Sorted Array	30.0%	Easy
+006	ZigZag Conversion	22.1%	Easy
+007	Reverse Integer	26.0%	Easy
+008	String to Integer (atoi)	13.2%	Easy
+009	Palindrome Number	29.7%	Easy
+013	Roman to Integer	35.2%	Easy
+014	Longest Common Prefix	26.0%	Easy
+019	Remove Nth Node From End of List	27.4%	Easy
+020	Valid Parentheses	26.6%	Easy
+021	Merge Two Sorted Lists	32.9%	Easy
+026	Remove Duplicates from Sorted Array	31.5%	Easy
+027	Remove Element	32.4%	Easy
+028	Implement strStr()	22.1%	Easy
+036	Valid Sudoku	27.3%	Easy
+038	Count and Say	25.2%	Easy
+058	Length of Last Word	28.4%	Easy
+066	Plus One	30.6%	Easy
+067	Add Binary	24.8%	Easy
+070	Climbing Stairs	34.3%	Easy
+083	Remove Duplicates from Sorted List	34.5%	Easy
+088	Merge Sorted Array	30.0%	Easy
 100	Same Tree	41.9%	Easy
 101	Symmetric Tree	31.6%	Easy
 102	Binary Tree Level Order Traversal	29.6%	Easy
@@ -66,59 +64,59 @@ npm install --save-dev supertest
 206	Reverse Linked List	32.9%	Easy
 217	Contains Duplicate	40.3%	Easy
 --------------------------------
-1	Two Sum	17.6%	Medium
-2	Add Two Numbers	21.6%	Medium
-3	Longest Substring Without Repeating Characters	20.9%	Medium
-5	Longest Palindromic Substring	20.8%	Medium
-11	Container With Most Water	31.9%	Medium
-12	Integer to Roman	34.9%	Medium
-15	3Sum	16.9%	Medium
-16	3Sum Closest	26.9%	Medium
-17	Letter Combinations of a Phone Number	25.8%	Medium
-18	4Sum	21.6%	Medium
-22	Generate Parentheses	32.5%	Medium
-24	Swap Nodes in Pairs	32.5%	Medium
-29	Divide Two Integers	15.1%	Medium
-31	Next Permutation	25.0%	Medium
-34	Search for a Range	27.6%	Medium
-35	Search Insert Position	35.5%	Medium
-39	Combination Sum	27.9%	Medium
-40	Combination Sum II	25.1%	Medium
-43	Multiply Strings	20.9%	Medium
-46	Permutations	31.9%	Medium
-48	Rotate Image	31.9%	Medium
-49	Anagrams	24.4%	Medium
-50	Pow(x, n)	26.7%	Medium
-53	Maximum Subarray	34.6%	Medium
-54	Spiral Matrix	20.8%	Medium
-55	Jump Game	27.2%	Medium
-59	Spiral Matrix II	31.7%	Medium
-60	Permutation Sequence	22.8%	Medium
-61	Rotate List	21.8%	Medium
-62	Unique Paths	32.7%	Medium
-63	Unique Paths II	28.0%	Medium
-64	Minimum Path Sum	32.2%	Medium
-69	Sqrt(x)	23.1%	Medium
-71	Simplify Path	20.1%	Medium
-73	Set Matrix Zeroes	31.6%	Medium
-74	Search a 2D Matrix	31.5%	Medium
-75	Sort Colors	32.6%	Medium
-77	Combinations	30.8%	Medium
-78	Subsets	28.2%	Medium
-79	Word Search	20.2%	Medium
-80	Remove Duplicates from Sorted Array II	30.7%	Medium
-81	Search in Rotated Sorted Array II	31.5%	Medium
-82	Remove Duplicates from Sorted List II	25.0%	Medium
-86	Partition List	27.5%	Medium
-89	Gray Code	32.7%	Medium
-90	Subsets II	27.6%	Medium
-91	Decode Ways	16.4%	Medium
-92	Reverse Linked List II	26.1%	Medium
-93	Restore IP Addresses	20.9%	Medium
-94	Binary Tree Inorder Traversal	36.3%	Medium
-95	Unique Binary Search Trees II	27.8%	Medium
-96	Unique Binary Search Trees	36.2%	Medium
-98	Validate Binary Search Tree	20.9%	Medium
+001	Two Sum	17.6%	Medium
+002	Add Two Numbers	21.6%	Medium
+003	Longest Substring Without Repeating Characters	20.9%	Medium
+005	Longest Palindromic Substring	20.8%	Medium
+011	Container With Most Water	31.9%	Medium
+012	Integer to Roman	34.9%	Medium
+015	3Sum	16.9%	Medium
+016	3Sum Closest	26.9%	Medium
+017	Letter Combinations of a Phone Number	25.8%	Medium
+018	4Sum	21.6%	Medium
+022	Generate Parentheses	32.5%	Medium
+024	Swap Nodes in Pairs	32.5%	Medium
+029	Divide Two Integers	15.1%	Medium
+031	Next Permutation	25.0%	Medium
+034	Search for a Range	27.6%	Medium
+035	Search Insert Position	35.5%	Medium
+039	Combination Sum	27.9%	Medium
+040	Combination Sum II	25.1%	Medium
+043	Multiply Strings	20.9%	Medium
+046	Permutations	31.9%	Medium
+048	Rotate Image	31.9%	Medium
+049	Anagrams	24.4%	Medium
+050	Pow(x, n)	26.7%	Medium
+053	Maximum Subarray	34.6%	Medium
+054	Spiral Matrix	20.8%	Medium
+055	Jump Game	27.2%	Medium
+059	Spiral Matrix II	31.7%	Medium
+060	Permutation Sequence	22.8%	Medium
+061	Rotate List	21.8%	Medium
+062	Unique Paths	32.7%	Medium
+063	Unique Paths II	28.0%	Medium
+064	Minimum Path Sum	32.2%	Medium
+069	Sqrt(x)	23.1%	Medium
+071	Simplify Path	20.1%	Medium
+073	Set Matrix Zeroes	31.6%	Medium
+074	Search a 2D Matrix	31.5%	Medium
+075	Sort Colors	32.6%	Medium
+077	Combinations	30.8%	Medium
+078	Subsets	28.2%	Medium
+079	Word Search	20.2%	Medium
+080	Remove Duplicates from Sorted Array II	30.7%	Medium
+081	Search in Rotated Sorted Array II	31.5%	Medium
+082	Remove Duplicates from Sorted List II	25.0%	Medium
+086	Partition List	27.5%	Medium
+089	Gray Code	32.7%	Medium
+090	Subsets II	27.6%	Medium
+091	Decode Ways	16.4%	Medium
+092	Reverse Linked List II	26.1%	Medium
+093	Restore IP Addresses	20.9%	Medium
+094	Binary Tree Inorder Traversal	36.3%	Medium
+095	Unique Binary Search Trees II	27.8%	Medium
+096	Unique Binary Search Trees	36.2%	Medium
+098	Validate Binary Search Tree	20.9%	Medium
 103	Binary Tree Zigzag Level Order Traversal	26.5%	Medium
 105	Construct Binary Tree from Preorder and Inorder Traversal	26.4%	Medium
 106	Construct Binary Tree from Inorder and Postorder Traversal	26.8%	Medium

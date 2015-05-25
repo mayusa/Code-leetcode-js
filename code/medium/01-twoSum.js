@@ -13,11 +13,15 @@ Output: index1=1, index2=2
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
+  // 用对象来模拟hash table
+  // 将所有数组放进hash里面，key为当前值，value为下标
   var hash = {};
   for(var i=0; i<nums.length; i++) {
     hash[nums[i]] = i;
   }
 
+  // 遍历数组，如果hash里面有key和数组当前的值相加为target，那么就是那两下标了
+  // 注意要判断两下标不能一样
   for(var j=0; j<nums.length; j++) {
     var needValue = target-nums[j];
     if(hash.hasOwnProperty(needValue)) {

@@ -1,6 +1,6 @@
 var should = require('should');
-var twoSum = require('../code/medium/01-twoSum');
 
+var twoSum = require('../code/medium/01-twoSum');
 describe("Two Sum: ", function() {
   it("Pass Two Sum", function() {
     JSON.stringify(twoSum([2,7,11,15], 9)).should.equal(JSON.stringify([1,2]));
