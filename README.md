@@ -1,5 +1,4 @@
-##Solutions for leetcode in JavaScript  
-
+##Solutions for leetcode in JavaScript and how to test solution code:   
 ###Step 1. install 3 dependences  
 ````
 npm install -g mocha  
