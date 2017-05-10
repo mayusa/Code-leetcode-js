@@ -1,25 +1,25 @@
-##Solutions for leetcode in JavaScript
+## Solutions for leetcode in JavaScript
 
-###Using Node + Mocha to test a solution code:    
+### Using Node + Mocha to test a solution code:    
 
-####Step 1. install 3 dependences  
-````
+#### Step 1. install 3 dependences  
+````  
 npm install -g mocha  
 npm install --save-dev mocha    
 npm install --save-dev should    
 npm install --save-dev supertest   
 
-````
-####Step 2. write solution code  
-````
+````  
+#### Step 2. write solution code  
+````  
 var twoSum = function(nums, target) {
 	...
 };
 
 module.exports = twoSum;
 ````
-  
-####Step 3. write test function  
+    
+#### Step 3. write test function  
 ````
 var should = require('should');
 var twoSum = require('../code/medium/01-twoSum');
@@ -32,20 +32,20 @@ describe("Two Sum: ", function() {
 
 ````
 
-
-####Step 4. run test command   
+  
+#### Step 4. run test command   
 
 > mocha   
 
 ------  
 
-##Leet code questions 
+## Leet code questions 
 
-#### # Title
+####  # Title
 
 ---------------------
-Easy   
-
+Easy    
+````  
 006-ZigZag Conversion  
 007-Reverse Integer  
 008-String to Integer (atoi)	 
@@ -96,10 +96,11 @@ Easy
 205-Isomorphic Strings	
 206-Reverse Linked List	
 217-Contains Duplicate	
+````  
+--------------------------------    
 
---------------------------------  
-Medium  
-
+Medium    
+````  
 001-Two Sum	 
 002-Add Two Numbers	 
 003-Longest Substring Without Repeating Characters	 
@@ -204,4 +205,4 @@ Medium
 213-House Robber II	 
 215-Kth Largest Element in an Array	 
 216-Combination Sum III	  
-
+````  
